@@ -17,9 +17,6 @@ const devConfig = {
         "./MarketingApp": "./src/bootstrap.js",
       },
     }),
-    new HtmlWebpackPlugin({
-      template: "./public/index.html",
-    }),
   ],
 };
 
