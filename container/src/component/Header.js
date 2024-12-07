@@ -81,6 +81,17 @@ export default function Header({ signedIn, onSignOut }) {
           >
             App
           </Typography>
+
+          <Typography
+            variant="h6"
+            color="inherit"
+            noWrap
+            component={RouterLink}
+            to="/pricing"
+          >
+            Pricing
+          </Typography>
+
           <Button
             color="primary"
             variant="outlined"
